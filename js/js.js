@@ -156,7 +156,7 @@ function getrepos(){
             urldiv.appendChild(urltext);
            
             // add hyper text
-           urldiv.href = `https://${input.value}.github.io/${repo.name}/`;
+           urldiv.href = `https://github.com/${input.value}/${repo.name}/`;
             // set attripute blank
             urldiv.setAttribute('targrt','_blank')
             maindiv.appendChild(urldiv);
